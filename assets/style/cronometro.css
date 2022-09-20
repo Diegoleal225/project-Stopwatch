@@ -69,6 +69,15 @@ button:hover{
         height: 35vh;
     }
 }
+@media (max-width:1250px){
+    button{
+        width: 7vw;
+    }
+    .container1{
+        width: 45vw;
+        height: 35vh;
+    }
+}
 @media (max-width:900px){
     button{
         width: 8vw;
@@ -95,9 +104,9 @@ button:hover{
 }
 @media (max-width:600px){
     button{
-        width: 8vw;
-        height: 3vh;
-        font-size: 75%;
+        width: 10vw;
+        height: 4vh;
+        font-size: 80%;
     }
     .form-main{
         height: 20%;
@@ -111,36 +120,38 @@ button:hover{
 }
 @media (max-width:500px){
     button{
-        height: 2vh;
-        font-size: 55%;
+        height: 3vh;
+        width: 11vw;
+        font-size: 75%;
     }
     .form-main{
-        height: 18%;
+        height: 32%;
     }
     .hora{
         font-size: 350%;
     }
     .container1{
-        height: 25vh;
+        height: 18vh;
     }
     .container2{
-        height: 12vh;
+        height: 7vh;
     }
 }
-@media (max-width:370px){
+@media (max-width:375px){
     button{
-        font-size: 45%;
+        height: 2vh;
+        font-size: 65%;
     }
     .form-main{
-        height: 19%;
+        height: 20%;
     }
     .container1{
-        height: 25vh;
+        height: 17vh;
     }
     .hora{
         font-size: 270%;
     }
     .container2{
-        height: 10vh;
+        height: 7vh;
     }
 }
