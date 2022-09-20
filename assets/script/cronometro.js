@@ -49,22 +49,3 @@ function cronometro() {
 }
 cronometro();
 
-
-
-/* ->>>>>Importando valores de botões de forma singular
-
-start.addEventListener('click',function(){
-    container2.style.color='black';
-    clearInterval(event);
-    timeUpdate();
-})
-pause.addEventListener('click',function(){
-    container2.style.color='red';
-    timeStop();
-})
-clear.addEventListener('click',function(){
-    time.innerHTML=varClear;
-    second=0;
-    container2.style.color='black';
-})
-*/
